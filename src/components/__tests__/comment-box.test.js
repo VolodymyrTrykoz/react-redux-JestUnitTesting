@@ -12,7 +12,7 @@ beforeEach(()=> {
         </Root>
     );
 })
-
+ 
 afterEach(()=> {
     wrapped.unmount();
 })
@@ -41,4 +41,3 @@ describe('the text area', () => {
         expect(wrapped.find('textarea').prop('value')).toEqual('');
     });
 })
-
